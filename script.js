@@ -10,7 +10,7 @@ musicButton.addEventListener("click", () => {
 const swoosh = document.getElementById("swoosh");
 const falcon = document.getElementById("falcon");
 
-falcon.addEventListener("animationiteration", startSwoosh);
+falcon.addEventListener("animationstart", startSwoosh);
 
 function startSwoosh() {
     swoosh.play();

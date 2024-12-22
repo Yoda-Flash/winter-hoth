@@ -25,6 +25,7 @@ button {
     height: 1px;
     visibility: hidden;
     animation: soar-right 80s infinite;
+    animation-delay: 10s;
 }
 
 @keyframes soar-right {
