@@ -28,6 +28,16 @@ button {
     animation-delay: 10s;
 }
 
+#text {
+    font-size: 50px;
+    font-family: "Lucida Handwriting", cursive;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    bottom: 0;
+}
+
 @keyframes soar-right {
     0%{
         height: 1px;
